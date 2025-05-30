@@ -44,7 +44,6 @@ const Header = () => {
             {[].map((item, index) => (
               <a 
                 key={index}
-                href={`#${item.toLowerCase()}`}
                 className="text-white hover:text-amber-400 transition-colors duration-300 text-sm uppercase tracking-wider"
               >
                 {item}
@@ -103,7 +102,6 @@ const Header = () => {
               {[].map((item, index) => (
                 <a 
                   key={index}
-                  href={`#${item.toLowerCase()}`}
                   className="text-white hover:text-amber-400 transition-colors duration-300 text-sm uppercase tracking-wider py-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
